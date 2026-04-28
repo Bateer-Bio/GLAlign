@@ -46,18 +46,17 @@ python GLAlign.py \
     ./Label2A.txt
 ```
 Arguments Explanation:
-
-<input_k1>: Path to the kernel matrix for dataset 1 (e.g., K1.npy).
-<input_k2>: Path to the kernel matrix for dataset 2 (e.g., K2.npy).
-<result_dir>: Directory to save the output transformation matrices and loss plots.
-<num_feat>: Dimensionality of the shared latent space (e.g., 5).
-<sigma>: Bandwidth parameter for the Gaussian kernel (e.g., 0.5).
-<lambda1>: Weight for the penalty term (e.g., 1e-09).
-<lambda2>: Weight for the distortion term (e.g., 1e-07).
-<lambda3>: Weight for the contrastive triplet loss term (e.g., 0.5).
-<k12>: Path to the CSV file with the Jaccard similarity matrix (K12_z.csv).
-<label1>: Path to cell type labels for dataset 1.
-<label2>: Path to cell type labels for dataset 2.
+- **​​input_k1​​:** Path to the kernel matrix for dataset 1 (e.g., K1.npy).
+- **input_k2:** Path to the kernel matrix for dataset 2 (e.g., K2.npy).  
+- **​​result_dir​​:** Directory to save the output transformation matrices and loss plots.
+- **num_feat:** Dimensionality of the shared latent space (e.g., 5).
+- **sigma​​:** Bandwidth parameter for the Gaussian kernel (e.g., 0.5).
+- **lambda1:** Weight for the penalty term (e.g., 1e-09).
+- **lambda2:** Weight for the distortion term (e.g., 1e-07).
+- **lambda3​​:** Weight for the contrastive triplet loss term (e.g., 0.5).
+- **k12:** Path to the CSV file with the Jaccard similarity matrix (K12_z.csv).
+- **label1​​:** Path to cell type labels for dataset 1.
+- **label2:** Path to cell type labels for dataset 2. 
 
 ### 2. Downstream Analysis & Visualization
 After running GLAlign.py, you can load the learned transformation matrices (alpha_hat and beta_hat) into Python to compute the integrated embeddings and visualize them using scanpy.
