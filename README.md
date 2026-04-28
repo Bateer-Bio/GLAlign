@@ -4,9 +4,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-compatible-orange.svg)](https://pytorch.org/)
 
 GLAlign (Global manifold and Local marker gene Alignment) is an optimization framework designed to integrate single-cell multi-omics data by jointly leveraging global manifold structure and local marker gene information. It effectively overcomes geometric ambiguity and overcorrection, providing a robust and interpretable framework for accurate single-cell multi-omics integration.
-<img width="1085" height="283" alt="截屏2026-04-28 15 02 13" src="https://github.com/user-attachments/assets/0fa37c1e-01b2-42dc-a657-dc2170c177b8" />
 <img width="1599" height="766" alt="截屏2026-04-28 15 01 47" src="https://github.com/user-attachments/assets/4ca65cf8-0b57-4a27-9e10-e162bbb26494" />
-
+<img width="1085" height="283" alt="截屏2026-04-28 15 02 13" src="https://github.com/user-attachments/assets/0fa37c1e-01b2-42dc-a657-dc2170c177b8" />
 ## Overview
 GLAlign learns a shared latent space using a joint objective that combines:
 1. **Maximum Mean Discrepancy (MMD)** for global distribution matching.
@@ -94,6 +93,12 @@ sc.tl.umap(adata, random_state=666)
 sc.pl.umap(adata, color=["celltype"], palette={'CD8 Naive':"#2ca02c", 'NK dim':"#d62728", 'CD16+ Monocytes':"#9467bd"}, save="_CT_M3Align.pdf")
 sc.pl.umap(adata, color=["batch"], save="_batch_M3Align.pdf")
 ```
+<img width="644" height="414" alt="截屏2026-04-28 15 02 55" src="https://github.com/user-attachments/assets/b6616e75-ded5-4f6d-a86b-eb297fba1704" />
+<img width="685" height="414" alt="截屏2026-04-28 15 02 44" src="https://github.com/user-attachments/assets/78de3910-7c78-4bc9-9c42-f833c2b67bdf" />
+
+
+
+
 
 
 
