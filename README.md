@@ -4,6 +4,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-compatible-orange.svg)](https://pytorch.org/)
 
 GLAlign (Global manifold and Local marker gene Alignment) is an optimization framework designed to integrate single-cell multi-omics data by jointly leveraging global manifold structure and local marker gene information. It effectively overcomes geometric ambiguity and overcorrection, providing a robust and interpretable framework for accurate single-cell multi-omics integration.
+<img width="1085" height="283" alt="截屏2026-04-28 15 02 13" src="https://github.com/user-attachments/assets/0fa37c1e-01b2-42dc-a657-dc2170c177b8" />
+<img width="1599" height="766" alt="截屏2026-04-28 15 01 47" src="https://github.com/user-attachments/assets/4ca65cf8-0b57-4a27-9e10-e162bbb26494" />
 
 ## Overview
 GLAlign learns a shared latent space using a joint objective that combines:
